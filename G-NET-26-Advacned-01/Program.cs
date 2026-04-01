@@ -129,7 +129,24 @@ namespace G_NET_26_Advacned_01
              * 
              */
             #endregion
+            #region Q6
+            //What is a generic interface? Write IRepository<T>
+            //Answer:
+            //It is an interface that has a type parameter,
+            //it is used to define a contract for classes that will implement it,
+            //and it allows us to write reusable code that can work with any data type.
+            //Example:
+            //public interface IRepository<T> where T : class
+            //{
+            //T GetById(int id);
+            //IEnumerable<T> GetAll();
+            //void Add(T entity);
+            //void Update(T entity);
+            //void Delete(T entity);
+            //}
+            //see Q6 folder for answer code.
 
+            #endregion
         }
     }
   
