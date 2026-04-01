@@ -26,6 +26,25 @@ namespace G_NET_26_Advacned_01
             #endregion
             #region Q2
             //Q2: Write a generic class Container<T> with Add and Get methods.
+            //Answer:
+            /*
+             *
+                public class Container<T>
+                    {
+                        private T val;
+                        public void Add(T val)
+                        {
+                                       this.val = val;
+                        }
+                        public T Get()
+                        {
+                            return val;
+                        }
+                    }
+             * 
+             * See Q2 folder for answer code.
+             * 
+             */
             #endregion
             #region Q3
             //Q3: What are multiple type parameters? Write Pair<TKey, TValue>.
