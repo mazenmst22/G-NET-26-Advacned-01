@@ -9,6 +9,7 @@ namespace G_NET_26_Advacned_01
 {
     public class Program
     {
+        
         public static void Main(string[] args)
         {
             #region Q1
@@ -87,6 +88,21 @@ namespace G_NET_26_Advacned_01
             #endregion
             #region Q4
             //Q4: What is a generic method? Write Swap<T> method.
+            //It is a method declared with the actual type parameter
+            //Example using Swap<T>() method
+            /*
+             * public void Swap<T>(T a,T b)
+            {
+                if (a == null || b==null) return;
+                T temp = a;
+                a = b;
+                b = temp;
+
+            }
+             * 
+             * 
+             */
+
             #endregion
             #region Q5
             //Q5: Write a generic method FindMax<T> that finds maximum value
@@ -94,4 +110,5 @@ namespace G_NET_26_Advacned_01
 
         }
     }
+  
 }
