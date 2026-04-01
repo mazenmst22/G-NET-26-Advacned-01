@@ -48,6 +48,42 @@ namespace G_NET_26_Advacned_01
             #endregion
             #region Q3
             //Q3: What are multiple type parameters? Write Pair<TKey, TValue>.
+            //Answer:
+            //It is a generic thjat has more than one type parameter,
+            //it is use when we want to handle different data types simultaneously,
+            //It is made using a class that has a different constraints for different type parameters.
+            //Example:
+            /*
+             *
+                public class Pair<T, U>
+                    where T : struct
+                    where U : class
+                {
+                    private T key;
+                    private U value;
+                    public Pair(T key, U value)
+                    {
+                        this.key = key;
+                        this.value = value;
+                    }
+                    public T GetKey()
+                    {
+                        return key;
+                    }
+                    public U GetValue()
+                    {
+                        return value;
+                    }
+                    public override string ToString()
+                    {
+                        return $"Key: {key}, Value: {value}";
+                    }
+                }
+             * 
+             * See Q3 folder for answer code.
+             * 
+             */
+
             #endregion
             #region Q4
             //Q4: What is a generic method? Write Swap<T> method.
