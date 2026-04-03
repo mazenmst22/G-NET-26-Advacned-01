@@ -295,6 +295,31 @@ namespace G_NET_26_Advacned_01
 
 
             #endregion
+            #region Q14
+            //Write a SafeList<T> that returns default when the index is invalid.
+            //Answer:
+            /*
+             * public class SafeList<T>
+                {
+                    private List<T> items = new List<T>();
+                    public void Add(T item)
+                    {
+                        items.Add(item);
+                    }
+                    public T Get(int index)
+                    {
+                        if (index < 0 || index >= items.Count)
+                        {
+                            return default(T);
+                        }
+                        return items[index];
+                    }
+                }
+             * 
+             * 
+             */
+
+            #endregion
 
         }
     }
