@@ -286,6 +286,16 @@ namespace G_NET_26_Advacned_01
              * 
              */
             #endregion
+            #region Q13
+            //What does the 'default' keyword do in generics ?
+            //Answer:
+            //It is used to return the default value of a type parameter,
+            //For reference types, it returns null,
+            //and for value types, it returns the default value (e.g., 0 for int, false for bool).
+
+
+            #endregion
+
         }
     }
 
