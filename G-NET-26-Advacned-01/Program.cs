@@ -269,6 +269,23 @@ namespace G_NET_26_Advacned_01
              * 
              */
             #endregion
+            #region Q12
+            //How do you apply multiple constraints? Write an example. 
+            //Answer:
+            //You can apply multiple constraints by separating them with a comma,
+            //Example:
+            /*
+             * public class MyClass<T> where T : class, new()
+                {
+                    public T CreateInstance()
+                    {
+                        return new T();
+                    }
+                }
+             * 
+             * 
+             */
+            #endregion
         }
     }
 
