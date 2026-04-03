@@ -49,6 +49,7 @@
     <Compile Include="Q3\Pair.cs" />
     <Compile Include="Q5\Q5.cs" />
     <Compile Include="Q6\IRepository.cs" />
+    <Compile Include="Q7\Point.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

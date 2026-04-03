@@ -147,6 +147,40 @@ namespace G_NET_26_Advacned_01
             //see Q6 folder for answer code.
 
             #endregion
+            #region Q7
+            //What is the 'struct' constraint? Write an example.
+            //Answer:
+            //It is a constraint that specifies that the type parameter must be a value type,
+            //Eg: int , double, bool, etc.
+            //Example:
+            /*
+              public class Point<T> where T : struct
+             {
+                 public T X { get; set; }
+                 public T Y { get; set; }
+                public T Z { get; set; }
+       
+                public Point(T x, T y, T z)
+                {
+                    X = x;
+                    Y = y;
+                    Z = z;
+                }
+                public void DisplayCoordinates()
+                {
+                    Console.WriteLine($"Point coordinates: ({X}, {Y}, {Z})");
+                }
+               }
+             * 
+             * for answer code see Q7 folder.
+             * 
+             * 
+             * 
+             * 
+             * 
+             */
+
+            #endregion
         }
     }
   
