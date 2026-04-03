@@ -159,7 +159,7 @@ namespace G_NET_26_Advacned_01
                  public T X { get; set; }
                  public T Y { get; set; }
                 public T Z { get; set; }
-       
+
                 public Point(T x, T y, T z)
                 {
                     X = x;
@@ -221,7 +221,33 @@ namespace G_NET_26_Advacned_01
              * 
              */
             #endregion
+            #region Q10
+            //What is the interface constraint? Write an example.
+            //Answer:
+            //It is a constraint that specifies that the type parameter must implement a specific interface,
+            //Example:
+            /*
+             * public class Point3D<T> where T : IDisplay<T>
+            {
+            public T X { get; set; }
+            public T Y { get; set; }
+            public T Z { get; set; }
+
+            public Point3D(T x, T y, T z)
+            {
+            X = x;
+            Y = y;
+            Z = z;
+            }
+                public void DisplayCoordinates()
+            {
+            Console.WriteLine($"Point coordinates: ({X}, {Y}, {Z})");
+            }
+            * 
+             * 
+             */
+            #endregion
         }
     }
-  
+
 }
