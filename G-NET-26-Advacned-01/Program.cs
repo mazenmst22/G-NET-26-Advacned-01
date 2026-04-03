@@ -181,6 +181,29 @@ namespace G_NET_26_Advacned_01
              */
 
             #endregion
+            #region Q8
+            //What is the 'class' constraint? Write an example.
+            //Answer:
+            //It is a constraint which specifies that the type parameter must be a reference type, 
+            //Eg: string, object, etc.
+            //Example:
+            /*
+             * public class MyRepository<T> where T : class
+                {
+                    private List<T> items = new List<T>();
+                    public void Add(T item)
+                    {
+                        items.Add(item);
+                    }
+                    public IEnumerable<T> GetAll()
+                    {
+                        return items;
+                    }
+                }
+             * 
+             * 
+             */
+            #endregion
         }
     }
   
