@@ -320,6 +320,14 @@ namespace G_NET_26_Advacned_01
              */
 
             #endregion
+            #region Q15
+            //What is covariance? Explain the 'out' keyword.
+            //Answer:
+            //Covariance is the ability to use a more derived type than originally specified,
+            //The 'out' keyword is used to declare a type parameter as covariant,
+            //which allows it to be used in output positions (e.g., return types)
+            //but not in input positions (e.g., method parameters).
+            #endregion
 
         }
     }
