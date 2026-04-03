@@ -247,6 +247,28 @@ namespace G_NET_26_Advacned_01
              * 
              */
             #endregion
+            #region Q11
+            //What is the base class constraint? Write an example.
+            //Answer:
+            //It is a constraint that specifies that the type parameter must be or derive from a specific base class,
+            //Example:
+            /*
+             * public class Repository<T> where T : BaseEntity
+                {
+                    private List<T> items = new List<T>();
+                    public void Add(T item)
+                    {
+                        items.Add(item);
+                    }
+                    public IEnumerable<T> GetAll()
+                    {
+                        return items;
+                    }
+                }
+             * 
+             * 
+             */
+            #endregion
         }
     }
 
