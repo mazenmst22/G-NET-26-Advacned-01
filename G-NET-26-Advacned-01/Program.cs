@@ -328,6 +328,14 @@ namespace G_NET_26_Advacned_01
             //which allows it to be used in output positions (e.g., return types)
             //but not in input positions (e.g., method parameters).
             #endregion
+            #region Q16
+            //What is contravariance? Explain the 'in' keyword.
+            //Answer:
+            //Contravariance is the ability to use a less derived type than originally specified,
+            //The 'in' keyword is used to declare a type parameter as contravariant,
+            //which allows it to be used in input positions (e.g., method parameters)
+            //but not in output positions (e.g., return types).
+            #endregion
 
         }
     }
