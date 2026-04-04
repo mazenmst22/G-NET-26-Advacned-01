@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -361,6 +362,12 @@ namespace G_NET_26_Advacned_01
             //1) Inherit and pass Type parameter
             //2)Inherit with specific type
             //3)Inherit and add new type parameter
+            #endregion
+            #region Q20
+            //Complete Exercise -Create a generic Cache<TKey, TValue>
+            //with Add, Get, Remove, Contains, and expiration support.
+            //Answer:
+            //see Q20 folder for answer code.
             #endregion
         }
     }
