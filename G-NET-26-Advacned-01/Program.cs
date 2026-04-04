@@ -354,7 +354,14 @@ namespace G_NET_26_Advacned_01
             //List<int> and List<String> have separate static data, each one has its own copy
 
             #endregion
-
+            #region Q19
+            //How can you inherit from a generic class?
+            //Answer:
+            //There are several patterns to inherit from a generic:
+            //1) Inherit and pass Type parameter
+            //2)Inherit with specific type
+            //3)Inherit and add new type parameter
+            #endregion
         }
     }
 
