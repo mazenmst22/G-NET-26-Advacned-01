@@ -336,6 +336,24 @@ namespace G_NET_26_Advacned_01
             //which allows it to be used in input positions (e.g., method parameters)
             //but not in output positions (e.g., return types).
             #endregion
+            #region Q17
+            //What is the difference between covariance and contravariance?
+            //Answer:
+            //Covariance allows you to use a more derived type,
+            //while contravariance allows you to use a less derived type.
+            //Covariance is declared with the 'out' keyword,
+            //while contravariance is declared with the 'in' keyword.
+            //Covariance is used for output positions (e.g., return types),
+            //while contravariance is used for input positions (e.g., method parameters).
+
+            #endregion
+            #region Q18
+            //How do static members work in generic types?
+            //Answer:
+            // Every closed generic type has its own copy of static fields,
+            //List<int> and List<String> have separate static data, each one has its own copy
+
+            #endregion
 
         }
     }
